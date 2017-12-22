@@ -1,0 +1,41 @@
+{
+  "name": "original-touch",
+  "version": "1.0.0",
+  "description": "touch",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "min": "gulp min",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfcdxg/original-touch.git"
+  },
+  "author": "zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xfcdxg/original-touch/issues"
+  },
+  "homepage": "https://github.com/xfcdxg/original-touch#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-import": "^1.6.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "mock-window": "^1.0.2",
+    "pump": "^2.0.0",
+    "ramda": "^0.25.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
